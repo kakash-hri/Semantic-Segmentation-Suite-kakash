@@ -1,3 +1,22 @@
+segmentation_results/
+dataset_*/
+raw_data/created_dataset_*/
+DeepLabV3_plus_*/
+
+models/*.graph
+models/*.pyc
+models/*.ckpt*
+models/*.pb
+models/*txt
+models/*.tflite
+checkpoints/
+Test/*.png
+accuracy_vs_epochs.png
+loss_vs_epochs.png
+colour_codes.csv
+CamVid_train.tfrecords
+tfrecords.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
